@@ -1,0 +1,14 @@
+TILE_SIZE = 20
+# Dimensions of playable screen area in units of 'tile'
+TILE_WIDTH = 36
+TILE_HEIGHT = 22
+
+WIN_WIDTH = TILE_WIDTH * TILE_SIZE
+WIN_HEIGHT = TILE_HEIGHT * TILE_SIZE + 40  # 40px extra height for score text
+WIN_TITLE = "Snake"
+WIN_FPS = 60
+
+SNAKE_LENGTH_STARTING = 5
+SNAKE_LENGTH_INCREMENT = 1
+SNAKE_SCORE_INCREMENT = 10
+SNAKE_MOVE_TICK = 6
