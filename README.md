@@ -21,7 +21,7 @@
 
     ```bash
     git clone https://github.com/TedAlden/snake
-    cd snake
+    cd snake/src
     ```
 
 
